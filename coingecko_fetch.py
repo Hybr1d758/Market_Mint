@@ -341,7 +341,8 @@ def fetch_ohlcv_df(coin_id: str = "pax-gold", vs: str = "usd", days: int = 28, f
 	if coin in {"gold", "xau", "xauusd", "xau-usd"}:
 		coin = "pax-gold"
 
-	# Enable default caching for programmatic use if available (1 hour TTL)
+	# Enable default caching for programmatic use if 
+	# available (1 hour TTL)
 	if _requests_cache is not None:
 		_requests_cache.install_cache("coingecko_cache", expire_after=3600)
 
