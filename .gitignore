@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local data/cache
+data/*.csv
+coingecko_cache.sqlite*
+
+# Env (if ever used)
+.env
+
+

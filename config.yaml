@@ -1,0 +1,10 @@
+tickers: [gold, bitcoin, ethereum]
+vs_currency: usd
+date:
+  lookback_days: 90
+frequency: daily
+features: false
+cache_seconds: 3600
+output_path: data/{ticker}.csv
+
+
